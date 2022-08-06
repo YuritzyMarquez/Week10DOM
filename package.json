@@ -1,0 +1,23 @@
+{
+  "name": "week10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DOM.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuritzyMarquez/Week10DOM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuritzyMarquez/Week10DOM/issues"
+  },
+  "homepage": "https://github.com/YuritzyMarquez/Week10DOM#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0"
+  }
+}

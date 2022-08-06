@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" href="DOM.CSS">
+
+<body class="container">
+    
+    <div class="col-sm">
+        <div class="form-group">
+                <h6>Champion</h6>
+                    <input type="text" id="champion">
+                 </div><br>
+        </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <h6>Role</h6>
+                    <input type="text" id="role">
+                </div><br>
+            </div>
+           
+
+    <div class="col-sm">
+        <div class="form-group">
+            <h6>Runes</h6>
+                 <input type="text"id="runes">
+            </div>
+        </div><br>
+        
+            <div>
+                <button id="add" class="btn btn-primary from-control">Create</button>
+            </div>
+
+        </div><br>
+
+    <table id="list" class="table table-dark table-striped">
+        <tr>
+            <th>Champion</th>
+            <th>Role</th>
+            <th>Runes</th>
+        </tr>
+
+    </table>
+
+       
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="DOM.js"></script>
+    
+</body>
+</html>
